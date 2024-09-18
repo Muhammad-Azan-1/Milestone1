@@ -222,8 +222,7 @@ textarea {
 }
 
 #go-back:hover {
-    background-color: #383d4d;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #0056b3;
 }
 
 #Download{
@@ -245,8 +244,7 @@ textarea {
  
 }
 #Download:hover {
-    background-color: #383d4d;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #0056b3;
 }
 
 
