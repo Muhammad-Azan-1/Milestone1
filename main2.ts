@@ -30,20 +30,20 @@ let experience = document.querySelector('.experience') as HTMLInputElement;
 
 input_submits.addEventListener('click', (e) => {
     e.preventDefault();
-//     if(
+    if(
         
-//     names.value.trim() === '' || 
-//     email.value.trim() === '' || 
-//     phone.value.trim() === '' || 
-//     skills.value.trim() === '' || 
-//     education.value.trim() === '' || 
-//     experience.value.trim() === '' 
-// ) {
+    names.value.trim() === '' || 
+    email.value.trim() === '' || 
+    phone.value.trim() === '' || 
+    skills.value.trim() === '' || 
+    education.value.trim() === '' || 
+    experience.value.trim() === '' 
+) {
 
-//         alert('All Input fields are required')
+        alert('All Input fields are required')
 
-//     }
-//         else{
+    }
+        else{
 
     conatiner.classList.add('hidden1');
     resume_generated_conatiner.classList.remove('hidden2');
@@ -86,7 +86,7 @@ input_submits.addEventListener('click', (e) => {
         <button id="go-back" class="guessSubmit">Edit</button>
     </div>
     `
-    // }
+     }
     
 
 });
