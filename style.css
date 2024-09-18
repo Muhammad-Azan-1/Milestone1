@@ -215,7 +215,7 @@ position: relative;
 .btn{
     margin-top: 20px;
 }
-.btn a button{
+.btn button{
     background-color: #44b2e5;
     color: #fff;
     padding: 10px 20px;
@@ -225,7 +225,7 @@ position: relative;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
-.btn a button:hover{
+.btn button:hover{
     background-color: #3f748d;
 }
 
